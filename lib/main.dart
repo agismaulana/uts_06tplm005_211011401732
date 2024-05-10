@@ -232,7 +232,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Row(
                   children: [
                     Expanded(
-                      flex: 50, 
+                      flex: 60, 
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
@@ -266,7 +266,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                     ),
                     Expanded(
-                      flex: 25,
+                      flex: 30,
                       child: Image(
                         image: NetworkImage('https://www.freepnglogos.com/uploads/shoes-png/shoes-wasatch-running-3.png'),
                       )
